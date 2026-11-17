@@ -1,1 +1,1 @@
-"""changelogfeed baseline (single-responsibility pipeline)."""
+"""changelogfeed package (single-responsibility pipeline)."""
