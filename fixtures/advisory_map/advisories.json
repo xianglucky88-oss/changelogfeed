@@ -1,0 +1,87 @@
+[
+  {
+    "advisory_id": "ADV-ALIAS",
+    "source": "ghsa",
+    "ts": "2026-11-05T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "pyyaml",
+    "aliases": ["PyYAML", "yaml-parser"],
+    "constraints": ">=5.3 <5.4"
+  },
+  {
+    "advisory_id": "ADV-CROSS-ECO",
+    "source": "osv",
+    "ts": "2026-11-06T00:00:00Z",
+    "ecosystem": "npm",
+    "package": "yaml",
+    "ranges": [
+      {"events": [{"introduced": "0"}, {"fixed": "2.0.0"}]}
+    ]
+  },
+  {
+    "advisory_id": "ADV-PRE",
+    "source": "osv",
+    "ts": "2026-11-07T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "prelib",
+    "ranges": [
+      {"events": [{"introduced": "1.0.0-rc.1"}, {"fixed": "1.0.0-rc.2"}]}
+    ]
+  },
+  {
+    "advisory_id": "ADV-NOVER",
+    "source": "ghsa",
+    "ts": "2026-11-08T00:00:00Z",
+    "ecosystem": "maven",
+    "package": "com.example:nover",
+    "no_constraints": true
+  },
+  {
+    "advisory_id": "ADV-CONFLICT",
+    "source": "ghsa",
+    "ts": "2026-11-09T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "conflib",
+    "constraints": ">=1.0 <2.0"
+  },
+  {
+    "advisory_id": "ADV-CONFLICT",
+    "source": "osv",
+    "ts": "2026-11-09T01:00:00Z",
+    "ecosystem": "pypi",
+    "package": "conflib",
+    "constraints": ">=3.0 <4.0"
+  },
+  {
+    "advisory_id": "ADV-EARLY-W",
+    "source": "vendor",
+    "ts": "2026-11-10T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "earlylib",
+    "withdrawn": true
+  },
+  {
+    "advisory_id": "ADV-EARLY-W",
+    "source": "vendor",
+    "ts": "2026-11-12T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "earlylib",
+    "constraints": ">=1.0 <1.2"
+  },
+  {
+    "advisory_id": "ADV-LATE",
+    "source": "vendor",
+    "ts": "2026-11-10T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "latelib",
+    "constraints": ">=2.0 <2.2"
+  },
+  {
+    "advisory_id": "ADV-LATE",
+    "source": "vendor",
+    "ts": "2026-11-13T00:00:00Z",
+    "ecosystem": "pypi",
+    "package": "latelib",
+    "withdrawn": true
+  }
+]

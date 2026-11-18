@@ -1,0 +1,18 @@
+[
+  {"id": "dep-pyyaml-hit",  "ecosystem": "pypi",  "package": "PyYAML", "version": "5.3.1"},
+  {"id": "dep-pyyaml-miss", "ecosystem": "pypi",  "package": "pyyaml", "version": "5.4.0"},
+  {"id": "dep-pyyaml-alias", "ecosystem": "pypi", "package": "yaml-parser", "version": "5.3.2"},
+  {"id": "dep-yaml-npm-hit",  "ecosystem": "npm",  "package": "yaml",   "version": "1.5.0"},
+  {"id": "dep-yaml-npm-miss", "ecosystem": "npm",  "package": "yaml",   "version": "2.0.0"},
+  {"id": "dep-yaml-pypi-cross", "ecosystem": "pypi", "package": "yaml", "version": "1.5.0"},
+  {"id": "dep-pre-rc1", "ecosystem": "pypi", "package": "prelib", "version": "1.0.0-rc.1"},
+  {"id": "dep-pre-rc2", "ecosystem": "pypi", "package": "prelib", "version": "1.0.0-rc.2"},
+  {"id": "dep-pre-rel", "ecosystem": "pypi", "package": "prelib", "version": "1.0.0"},
+  {"id": "dep-nover-a", "ecosystem": "maven", "package": "com.example:nover", "version": "3.1.0"},
+  {"id": "dep-nover-b", "ecosystem": "maven", "package": "nover", "version": "0.9.0"},
+  {"id": "dep-conf-15", "ecosystem": "pypi", "package": "conflib", "version": "1.5.0"},
+  {"id": "dep-conf-25", "ecosystem": "pypi", "package": "conflib", "version": "2.5.0"},
+  {"id": "dep-conf-35", "ecosystem": "pypi", "package": "conflib", "version": "3.5.0"},
+  {"id": "dep-early-11", "ecosystem": "pypi", "package": "earlylib", "version": "1.1.0"},
+  {"id": "dep-late-21", "ecosystem": "pypi", "package": "latelib", "version": "2.1.0"}
+]
