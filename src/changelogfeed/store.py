@@ -4,6 +4,11 @@ from .config import DB_PATH
 
 def connect():
     con = sqlite3.connect(DB_PATH)
+    init(con)
+    return con
+
+def init(con):
+    """幂等建表；同一连接也承载 dedup 阶段的持久化状态。"""
     con.execute("CREATE TABLE IF NOT EXISTS records(key TEXT PRIMARY KEY, data TEXT NOT NULL)")
     return con
 
