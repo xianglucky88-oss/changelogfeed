@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 *.db
 .venv/
+# 本地 feed 磁盘缓存（提交体/暂存/隔离区，不入库）
+.cache/
 # Local environment and secret material
 .env
 .env.*
